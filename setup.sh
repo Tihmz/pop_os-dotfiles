@@ -40,7 +40,7 @@ else
     mkdir $p/.config/kitty
 fi
 
-cp kitty.conf $p/.config/kitty/
+cp kitty/kitty.conf $p/.config/kitty/
 
 ######neofetch
 
@@ -58,7 +58,7 @@ else
     mkdir $p/.config/neofetch
 fi
 
-cp neofetch.conf $p/.config/neofetch/config.conf
+cp neofetch/neofetch.conf $p/.config/neofetch/config.conf
 
 ######vim
 
@@ -71,7 +71,7 @@ if [ -f $p/.vimrc ]; then
     mv $p/.vimrc $p/.vimrc.old
 fi
 
-cp vimrc $p/.vimrc
+cp vim/vimrc $p/.vimrc
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim  
 
 if [ "$(vim --version | grep -i +python)" != "" ]; then
@@ -111,7 +111,7 @@ if [ -f $p/.tmux.conf ]; then
     mv $p/.tmux.conf $p/.tmux.conf.old
 fi
 
-cp tmux.conf $p/.tmux.conf
+cp tmux/tmux.conf $p/.tmux.conf
 
 ######lsd
 
