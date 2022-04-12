@@ -12,6 +12,13 @@ $ ./setup.sh --all
 ```
 that should install all the config file at the right place without deleting anything
 
+You can also choose to install each part as you want:
+```
+$ ./setup zsh vim tmux
+```
+
+see `./setup --help` for more info
+
 *it should work (not sure)*
 
 With popOS it give something that look like this:
