@@ -133,7 +133,7 @@ lsd_install () {
 }
 
 if [ "$1" == "--all" ];then
-    echo "installing everything"i
+    echo "installing everything"
     zsh_install
     lsd_install
     kitty_install
