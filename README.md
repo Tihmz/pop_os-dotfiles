@@ -1,7 +1,10 @@
 # dotfiles
 
-The conky script is a modified "now-clocking" script found here 
+The conky script is a modified "now-clocking" script found here:
 https://www.omgubuntu.co.uk/2021/07/spotify-now-playing-conky-linux-widget
+
+The neofetch thing with the icons is an idea of xfcisco, not mine. See here for the original file:
+# https://github.com/xfcisco/BarricadesRice/blob/main/neofetch-config/config.conf
 
 It support spotify and firefox (youtube), when nothing is playing it display basic system info (CPU,RAM...)
 
