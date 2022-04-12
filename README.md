@@ -33,5 +33,5 @@ DE : Gnome 40
 Icons pack : BeautyLine (with candy-icons terminix svg for kitty)
 Theme : Nordic-v40
 Cursor : Nordzy-cursors
-Spotify : spicetify plugin with dribbblish theme and nord-dark color scheme
+Spotify : spicetify plugin with dribbblish theme and beach-sunset color scheme
 ```
