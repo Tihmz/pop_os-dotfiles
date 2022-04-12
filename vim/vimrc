@@ -67,6 +67,7 @@ map <C-c> <Esc>
 nnoremap <silent> <C-Left> :tabprevious<CR>                                                                            
 nnoremap <silent> <C-Right> :tabnext<CR>
 nnoremap <silent> <C-Up> :tabnew<CR>
+nnoremap <silent> <C-z> u<CR>
 
 " }}}
 
