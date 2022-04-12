@@ -27,3 +27,11 @@ see `./setup --help` for more info
 With popOS it give something that look like this:
 
 ![screenshot](screenshot.png)
+```
+OS : Pop! OS
+DE : Gnome 40
+Icons pack : BeautyLine (with candy-icons terminix svg for kitty)
+Theme : Nordic-v40
+Cursor : Nordzy-cursors
+Spotify : spicetify plugin with dribbblish theme and nord-dark color scheme
+```
