@@ -8,7 +8,7 @@ It support spotify and firefox (youtube), when nothing is playing it display bas
 you can type
 ```
 $ chmod +x setup.sh
-$ ./setup.sh
+$ ./setup.sh --all
 ```
 that should install all the config file at the right place without deleting anything
 
