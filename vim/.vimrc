@@ -38,7 +38,6 @@ set expandtab
 filetype on
 filetype plugin on
 filetype indent on
-set cursorline
 
 hi MatchParen cterm=none ctermbg=green ctermfg=black 
 set nu
@@ -59,6 +58,9 @@ set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+hi CursorLine cterm=NONE ctermfg=NONE ctermbg=darkgrey
+set cursorline
+
 " }}}
 
 " MAPPINGS --------------------------------------------------------------- {{{
@@ -68,6 +70,7 @@ nnoremap <silent> <C-Left> :tabprevious<CR>
 nnoremap <silent> <C-Right> :tabnext<CR>
 nnoremap <silent> <C-Up> :tabnew<CR>
 nnoremap <silent> <C-z> u<CR>
+nnoremap <silent> <F4> :nohl<CR>
 
 " }}}
 
